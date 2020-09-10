@@ -17,4 +17,3 @@ blocks:
             - echo "lint your code"
             - ls
             - artifact push project new_file --force
-            - artifact pull project new_file
