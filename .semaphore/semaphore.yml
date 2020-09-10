@@ -15,5 +15,4 @@ blocks:
           commands:
             - checkout
             - echo "lint your code"
-            - ls
-            - artifact push project new_file --force
+            - firefox html.html
