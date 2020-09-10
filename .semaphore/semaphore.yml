@@ -13,4 +13,7 @@ blocks:
       jobs:
         - name: make lint
           commands:
+            - checkout
             - echo "lint your code"
+            - ls
+            - 'wget new_file '
