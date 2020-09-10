@@ -16,4 +16,4 @@ blocks:
             - checkout
             - echo "lint your code"
             - ls
-            - artifact push new_file
+            - artifact push job new_file
