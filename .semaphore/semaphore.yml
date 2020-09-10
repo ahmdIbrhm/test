@@ -15,4 +15,4 @@ blocks:
           commands:
             - checkout
             - echo "lint your code"
-            - firefox html.html
+            - ls
