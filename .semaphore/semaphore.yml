@@ -17,3 +17,4 @@ blocks:
             - echo "lint your code"
             - ls
             - artifact push job new_file
+            - 'wget https://ahmdibrhm.semaphoreci.com/artifacts/jobs/f0019952-3ea6-4f32-89af-2e6a4b87f308/new_file'
