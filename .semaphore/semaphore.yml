@@ -5,7 +5,7 @@ agent:
     type: e1-standard-2
     os_image: ubuntu1804
 blocks:
-  - name: Lints
+  - name: Lint
     task:
       prologue:
         commands:
@@ -16,4 +16,4 @@ blocks:
             - checkout
             - echo "lint your code"
             - ls
-            - artifact push project new_file
+            - artifact push project new_file --force
