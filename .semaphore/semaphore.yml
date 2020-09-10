@@ -16,4 +16,4 @@ blocks:
             - checkout
             - echo "lint your code"
             - ls
-            - 'wget new_file '
+            - artifact push new_file
